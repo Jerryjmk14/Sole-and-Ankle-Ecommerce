@@ -25,7 +25,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   gap: 15%;
-  margin: 20px 40px;
+  margin: 5px 40px;
   min-width: 200px;
 `;
 
@@ -35,7 +35,7 @@ const LinkWrapper = styled.div`
   gap: 30px;
   list-style-type: none;
   font-size: 1.25rem;
-  min-width: 100%;
+  width: 100%;
 
   li {
     min-width: fit-content;

@@ -25,8 +25,9 @@ export default function Aside() {
 }
 
 const AsideWrapper = styled.div`
-  margin-top: 4rem;
-  width: 20%;
+  /* background-color: blue; */
+  width: 15%;
+  height: 80vh;
 `;
 
 const Title = styled(Stack)`
@@ -53,8 +54,6 @@ const List = styled.li`
 const Link = styled.a`
   text-decoration: none;
   color: black;
-  width: 20px;
-
   &:hover {
     text-decoration: revert;
   }

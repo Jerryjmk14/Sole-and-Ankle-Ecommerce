@@ -30,6 +30,7 @@ const DarkNav = styled.div`
   color: white;
   margin: 0;
   padding: 0 30px;
+  height: 35px;
 `;
 
 const UserAction = styled.div`
