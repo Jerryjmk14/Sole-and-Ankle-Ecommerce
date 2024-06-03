@@ -37,7 +37,7 @@ const Title = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 90%;
 `;
 
 const ShoesWrapper = styled.div`

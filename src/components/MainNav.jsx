@@ -25,7 +25,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   gap: 15%;
-  margin: 5px 40px;
+  margin: 20px 40px;
   min-width: 200px;
 `;
 
