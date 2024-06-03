@@ -1,51 +1,42 @@
-// export const headerText = ["Watch.", "Learn.", "Grow."];
-
-// export const heroText = [
-//   "All Categories",
-//   "Entertainment",
-//   "Lifestyle",
-//   "Writing",
-//   "Business",
-//   "Food",
-// ];
-
-// import heroPic1 from "../assets/images/Sales.webp";
-// import heroPic2 from "../assets/images/Data.webp";
-// import heroPic3 from "../assets/images/Copywriting.webp";
-// import heroPic4 from "../assets/images/Design.webp";
-
-// export const heroData = [
-//   {
-//     id: 1,
-//     image: heroPic1,
-//     dataTitle: "Sales Marketing",
-//     duration: "4 months",
-//   },
-//   { id: 2, image: heroPic2, dataTitle: "Data Analytics", duration: "1 month" },
-//   {
-//     id: 3,
-//     image: heroPic3,
-//     dataTitle: "Copywriting Pro",
-//     duration: "2 months",
-//   },
-//   { id: 4, image: heroPic4, dataTitle: "Design Art", duration: "4 months" },
-// ];
-
-// export const navLink = [
-//   { id: 1, navName: "Home", href: "#" },
-//   { id: 2, navName: "About Us", href: "#" },
-//   { id: 3, navName: "Fashion", href: "#" },
-//   { id: 4, navName: "Offers", href: "#" },
-//   { id: 5, navName: "Services", href: "#" },
-// ];
-
 //sole and ankle data
+
+export const asideHeading = [
+  { id: 1, name: "Home" },
+  { id: 2, name: "Sale" },
+  { id: 3, name: "Sizes" },
+];
+
+export const asideData = [
+  { id: 1, asideText: "Lifestyle", href: "#" },
+  { id: 2, asideText: "Jordan", href: "#" },
+  { id: 3, asideText: "Running", href: "#" },
+  { id: 4, asideText: "Basketball", href: "#" },
+  { id: 5, asideText: "Training & Gym", href: "#" },
+  { id: 6, asideText: "Football", href: "#" },
+  { id: 7, asideText: "Skateboarding", href: "#" },
+  { id: 8, asideText: "American Football", href: "#" },
+  { id: 9, asideText: "Baseball", href: "#" },
+  { id: 10, asideText: "Golf", href: "#" },
+  { id: 11, asideText: "Tennis", href: "#" },
+  { id: 12, asideText: "Athletics", href: "#" },
+  { id: 13, asideText: "Walking", href: "#" },
+];
+
+import pic1 from "../assets/images/tech-challenge.jpg";
+import pic2 from "../assets/images/joyride.jpg";
+import pic3 from "../assets/images/legend-academy.jpg";
+import pic4 from "../assets/images/metcon-5.jpg";
+import pic5 from "../assets/images/pegasus.jpg";
+import pic6 from "../assets/images/phantom-flyknit.jpg";
+import pic7 from "../assets/images/phantom.jpg";
+import pic8 from "../assets/images/react-infinity.jpg";
+// import pic9 from "../assets/images/tech-challenge.jpg";
 
 const SHOES = [
   {
     slug: "tech-challenge",
     name: "NikeCourt Tech Challenge 20",
-    imageSrc: "/assets/tech-challenge.jpg",
+    imageSrc: pic1,
     price: 16500,
     salePrice: null,
     // 1 hour ago! 🔥
@@ -55,7 +46,7 @@ const SHOES = [
   {
     slug: "metcon-5",
     name: "Nike Metcon 5 AMP",
-    imageSrc: "/assets/metcon-5.jpg",
+    imageSrc: pic4,
     price: 16500,
     salePrice: null,
     releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 2,
@@ -64,7 +55,7 @@ const SHOES = [
   {
     slug: "phantom",
     name: "Nike Phantom Vision",
-    imageSrc: "/assets/phantom.jpg",
+    imageSrc: pic7,
     price: 16500,
     salePrice: null,
     releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 4,
@@ -73,7 +64,7 @@ const SHOES = [
   {
     slug: "pegasus",
     name: "Nike Air Zoom Pegasus",
-    imageSrc: "/assets/pegasus.jpg",
+    imageSrc: pic5,
     price: 16500,
     salePrice: null,
     releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 16,
@@ -82,7 +73,7 @@ const SHOES = [
   {
     slug: "joyride",
     name: "Nike Joyride Dual Run",
-    imageSrc: "/assets/joyride.jpg",
+    imageSrc: pic2,
     price: 17000,
     salePrice: null,
     releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 40,
@@ -91,7 +82,7 @@ const SHOES = [
   {
     slug: "legend-academy",
     name: "Nike Tiempo Legend 8",
-    imageSrc: "/assets/legend-academy.jpg",
+    imageSrc: pic3,
     price: 16500,
     salePrice: 12500,
     releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 50,
@@ -100,7 +91,7 @@ const SHOES = [
   {
     slug: "react-infinity",
     name: "Nike React Infinity Pro",
-    imageSrc: "/assets/react-infinity.jpg",
+    imageSrc: pic8,
     price: 16000,
     salePrice: 14500,
     releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 75,
@@ -109,7 +100,7 @@ const SHOES = [
   {
     slug: "phantom-flyknit",
     name: "Nike React Phantom Run Flyknit 2",
-    imageSrc: "/assets/phantom-flyknit.jpg",
+    imageSrc: pic6,
     price: 18500,
     salePrice: 16000,
     releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 100,

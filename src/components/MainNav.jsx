@@ -21,10 +21,12 @@ export default function MainNav() {
 }
 
 const Container = styled.div`
+  /* background-color: red; */
   display: flex;
   align-items: center;
   gap: 15%;
-  margin: 0 30px;
+  margin: 20px 40px;
+  min-width: 200px;
 `;
 
 const LinkWrapper = styled.div`
@@ -33,11 +35,17 @@ const LinkWrapper = styled.div`
   gap: 30px;
   list-style-type: none;
   font-size: 1.25rem;
+  min-width: 100%;
+
+  li {
+    min-width: fit-content;
+  }
 `;
 
 const Link = styled.a`
   text-decoration: none;
   color: black;
+  width: 20px;
   &:hover {
     text-decoration: revert;
   }
