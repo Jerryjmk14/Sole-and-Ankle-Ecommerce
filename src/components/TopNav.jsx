@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { Stack } from "@mui/material";
-import SearchIcon from "@mui/icons-material/Search";
 import DeviceUnknownIcon from "@mui/icons-material/DeviceUnknown";
+import { COLORS } from "../constants/data";
+import Search from "./Search";
 
 export default function TopNav() {
   return (
@@ -10,10 +11,7 @@ export default function TopNav() {
       <h3>Free Shipping on domestic order over $75!</h3>
       <UserAction>
         <Stack direction="row" spacing={1}>
-          <SearchIcon />
-          <SearchBar type="search" placeholder="Search" />
-        </Stack>
-        <Stack direction="row" spacing={1}>
+          <Search />
           <h3>Help</h3>
           <DeviceUnknownIcon />
         </Stack>
@@ -26,7 +24,7 @@ const DarkNav = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: black;
+  background-color: ${COLORS.gray[700]};
   color: white;
   margin: 0;
   padding: 0 30px;
@@ -40,15 +38,4 @@ const UserAction = styled.div`
   gap: 10px;
   min-width: 20%;
   margin: 0;
-`;
-
-const SearchBar = styled.input`
-  border: none;
-  background: black;
-  outline: none;
-  color: white;
-  font-size: 16px;
-  &:hover {
-    border-bottom: 1px solid white;
-  }
 `;

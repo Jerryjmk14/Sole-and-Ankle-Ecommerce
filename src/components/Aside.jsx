@@ -32,11 +32,14 @@ const AsideWrapper = styled.div`
 
 const Title = styled(Stack)`
   text-align: center;
-
   margin-left: 39px;
   h3 {
-    &::after {
-      content: "/";
+    &:not(:first-of-type) {
+      &::before {
+        content: "/";
+        margin-right: 10px;
+        opacity: 0.8;
+      }
     }
   }
 `;

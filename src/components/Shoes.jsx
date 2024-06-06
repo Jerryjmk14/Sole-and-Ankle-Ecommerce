@@ -17,8 +17,9 @@ export default function Shoes() {
         {SHOES.map((shoe) => {
           return (
             <Paper
-              elevation={4}
-              sx={{ flexBasis: "22%", p: "10px", height: "255px" }}>
+              elevation={0}
+              sx={{ flexBasis: "22%", p: "10px", height: "255px" }}
+              key={shoe.slug}>
               <Image src={shoe.imageSrc} alt="image" />
               <Stack direction="row" spacing={1}>
                 <h3>{shoe.name}</h3>
